@@ -97,10 +97,10 @@ export default async function Page({ params }: { params: { path: string } }) {
                     Register Now!
                   </Link>
                 </div>
-                <div className='flex flex-col items-start justify-center gap-5 py-4 sm:flex-row'>
-                  <div className='flex flex-col'>
+                <div className='items-start justify-center gap-5 py-4 sm:flex-row'>
+                  <div className=''>
                     <span className='text-2xl font-bold text-primary'>
-                      Starting
+                      Starting from
                     </span>
                     <span> {course.startDate}</span>
                   </div>
